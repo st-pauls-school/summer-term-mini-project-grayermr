@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{86823F3B-CDA1-4F9F-B0F0-1B5C0147CD36}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="summer-term-mini-project/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.summer-term-mini-project PreferredExecutionTarget="Test1" FirstBuild="True" />
+</Properties>
