@@ -1,0 +1,15 @@
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/bin/Debug/Car Dealership.exe
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/bin/Debug/Car Dealership.pdb
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/actool/partial-info.plist
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/actool/asset-manifest.plist
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/actool/bundle/AppIcon.icns
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/actool/bundle/Assets.car
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/ibtool-manifests/Main.storyboardc
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/ibtool/Main.storyboardc/5gI-5U-AMq-view-ERx-hH-rdd.nib
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/ibtool/Main.storyboardc/Document Window Controller.nib
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/summer-term-mini-project.csprojResolveAssemblyReference.cache
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/summer-term-mini-project.csproj.CoreCompileInputs.cache
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/Car Dealership.exe
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/Car Dealership.pdb
