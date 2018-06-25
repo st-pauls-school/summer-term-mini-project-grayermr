@@ -684,6 +684,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="createSale:" target="5gI-5U-AMq" id="8qj-aA-rMj"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JjM-fI-6uo">
                                 <rect key="frame" x="288" y="162" width="127" height="32"/>
@@ -692,6 +695,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="newInventory:" target="5gI-5U-AMq" id="b7q-FL-ahA"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lvz-ls-BNi">
                                 <rect key="frame" x="77" y="83" width="129" height="32"/>
@@ -700,6 +706,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="viewInventory:" target="5gI-5U-AMq" id="isB-5H-a8l"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iqh-9P-rvQ">
                                 <rect key="frame" x="222" y="233" width="40" height="17"/>
@@ -717,6 +726,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="salesReport:" target="5gI-5U-AMq" id="0Y1-NY-wLr"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>

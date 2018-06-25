@@ -7,6 +7,67 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict/>
+	<dict>
+		<key>1SK-UC-Psb</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>1SK-UC-Psb</string>
+				</array>
+				<key>message</key>
+				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>M5o-ZZ-DlL</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>M5o-ZZ-DlL</string>
+				</array>
+				<key>message</key>
+				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>XPp-SW-q1H</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>XPp-SW-q1H</string>
+				</array>
+				<key>message</key>
+				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>x4c-1J-TW6</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>x4c-1J-TW6</string>
+				</array>
+				<key>message</key>
+				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>
