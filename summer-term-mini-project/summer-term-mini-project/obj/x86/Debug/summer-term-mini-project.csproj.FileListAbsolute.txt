@@ -13,3 +13,5 @@
 /Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/summer-term-mini-project.csproj.CoreCompileInputs.cache
 /Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/Car Dealership.exe
 /Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/Car Dealership.pdb
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/bin/Debug/IronPdf.dll
+/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/bin/Debug/IronPdf.xml

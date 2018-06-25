@@ -10,10 +10,12 @@
 	--http-message-handler=HttpClientHandler \
 	/minos=10.12 \
 	/nolink \
+	/assembly:/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/packages/IronPdf.4.4.9/lib/net40/IronPdf.dll \
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/mscorlib.dll \
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
+	/assembly:/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/packages/IronPdf.4.4.9/lib/net40/IronPdf.dll \
 	'/root-assembly:/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/bin/Debug/Car Dealership.exe' \
 	/sdkroot:/Applications/Xcode.app/Contents/Developer \
 	--cache:/Users/maxgrayer/Documents/GitHub/summer-term-mini-project-grayermr/summer-term-mini-project/summer-term-mini-project/obj/x86/Debug/mmp-cache \
