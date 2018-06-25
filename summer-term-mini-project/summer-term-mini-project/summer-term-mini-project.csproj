@@ -84,6 +84,22 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Document.cs" />
+    <Compile Include="SalesReport.cs" />
+    <Compile Include="SalesReport.designer.cs">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInventory.cs" />
+    <Compile Include="ViewInventory.designer.cs">
+      <DependentUpon>ViewInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewInventory.cs" />
+    <Compile Include="NewInventory.designer.cs">
+      <DependentUpon>NewInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateSale.cs" />
+    <Compile Include="CreateSale.designer.cs">
+      <DependentUpon>CreateSale.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />

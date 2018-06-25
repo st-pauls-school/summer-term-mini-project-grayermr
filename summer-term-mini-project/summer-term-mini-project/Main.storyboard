@@ -2,8 +2,10 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="14019"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" minToolsVersion="8.1" minSystemVersion="10.12.2" requiredIntegratedClassName="NSTouchBar"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -732,15 +734,71 @@
                             </button>
                         </subviews>
                     </view>
+                    <touchBar key="touchBar" id="ZIu-hs-bkE">
+                        <touchBarItems>
+                            <touchBarItem id="j5z-0r-yRe">
+                                <viewController key="viewController" id="KiY-N7-JDf">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ehh-mY-Ymw">
+                                        <rect key="frame" x="0.0" y="0.0" width="108" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Create Sale" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="X7H-dF-vC6">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                        </buttonCell>
+                                    </button>
+                                </viewController>
+                                <size key="designTimeSize" width="108" height="30"/>
+                            </touchBarItem>
+                            <touchBarItem id="o7G-K4-Ydd">
+                                <viewController key="viewController" id="dBh-pa-Rwa">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3Jm-h6-zQs">
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="New Inventory" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="iRc-7c-xx0">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                        </buttonCell>
+                                    </button>
+                                </viewController>
+                                <size key="designTimeSize" width="126" height="30"/>
+                            </touchBarItem>
+                            <touchBarItem id="z4f-IV-DqZ">
+                                <viewController key="viewController" id="rBj-i4-5QP">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IBb-8r-Sko">
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="View Inventory" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RQl-cG-HNK">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                        </buttonCell>
+                                    </button>
+                                </viewController>
+                                <size key="designTimeSize" width="126" height="30"/>
+                            </touchBarItem>
+                            <touchBarItem id="gZg-4m-7tA">
+                                <viewController key="viewController" id="VDb-Cs-grt">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5tl-q5-Zhc">
+                                        <rect key="frame" x="0.0" y="0.0" width="108" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Sales Report" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fwv-LH-ay2">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                        </buttonCell>
+                                    </button>
+                                </viewController>
+                                <size key="designTimeSize" width="108" height="30"/>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
                 </viewController>
                 <customObject id="2Tp-Fl-jBw" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
-        <!--View Controller-->
+        <!--Sales Report-->
         <scene sceneID="HLY-Rr-k6W">
             <objects>
-                <viewController id="x4c-1J-TW6" sceneMemberID="viewController">
+                <viewController id="x4c-1J-TW6" customClass="SalesReport" sceneMemberID="viewController">
                     <view key="view" id="dLl-5v-QDI">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -761,10 +819,10 @@
             </objects>
             <point key="canvasLocation" x="592" y="655"/>
         </scene>
-        <!--View Controller-->
+        <!--View Inventory-->
         <scene sceneID="d5x-kw-0eR">
             <objects>
-                <viewController id="1SK-UC-Psb" sceneMemberID="viewController">
+                <viewController id="1SK-UC-Psb" customClass="ViewInventory" sceneMemberID="viewController">
                     <view key="view" id="0HZ-cg-hrH">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -783,12 +841,12 @@
                 </viewController>
                 <customObject id="RRd-a6-KWM" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="404" y="1046"/>
+            <point key="canvasLocation" x="404" y="1100"/>
         </scene>
-        <!--View Controller-->
+        <!--New Inventory-->
         <scene sceneID="nUT-zb-kyi">
             <objects>
-                <viewController id="XPp-SW-q1H" sceneMemberID="viewController">
+                <viewController id="XPp-SW-q1H" customClass="NewInventory" sceneMemberID="viewController">
                     <view key="view" id="Vr6-W2-WBf">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -807,12 +865,12 @@
                 </viewController>
                 <customObject id="MCI-T1-0Hz" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-168" y="1046"/>
+            <point key="canvasLocation" x="-168" y="1100"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Sale-->
         <scene sceneID="bhw-0h-jq1">
             <objects>
-                <viewController id="M5o-ZZ-DlL" sceneMemberID="viewController">
+                <viewController id="M5o-ZZ-DlL" customClass="CreateSale" sceneMemberID="viewController">
                     <view key="view" id="4TO-sd-COZ">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -831,7 +889,7 @@
                 </viewController>
                 <customObject id="ExM-Ny-Il9" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-434" y="655"/>
+            <point key="canvasLocation" x="-441" y="655"/>
         </scene>
     </scenes>
 </document>

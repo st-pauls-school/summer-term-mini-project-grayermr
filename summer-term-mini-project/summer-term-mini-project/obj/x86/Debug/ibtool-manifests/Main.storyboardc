@@ -5,7 +5,68 @@
 	<key>com.apple.ibtool.document.errors</key>
 	<dict/>
 	<key>com.apple.ibtool.document.notices</key>
-	<dict/>
+	<dict>
+		<key>3Jm-h6-zQs</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>3Jm-h6-zQs</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>5tl-q5-Zhc</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>5tl-q5-Zhc</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>IBb-8r-Sko</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>IBb-8r-Sko</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>ehh-mY-Ymw</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>ehh-mY-Ymw</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+	</dict>
 	<key>com.apple.ibtool.document.warnings</key>
 	<dict>
 		<key>1SK-UC-Psb</key>
@@ -16,7 +77,7 @@
 					<string>1SK-UC-Psb</string>
 				</array>
 				<key>message</key>
-				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<string>“View Inventory“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
 				<key>type</key>
 				<string>IBIssueTypeUnsupportedConfiguration</string>
 				<key>type-value</key>
@@ -31,7 +92,7 @@
 					<string>M5o-ZZ-DlL</string>
 				</array>
 				<key>message</key>
-				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<string>“Create Sale“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
 				<key>type</key>
 				<string>IBIssueTypeUnsupportedConfiguration</string>
 				<key>type-value</key>
@@ -46,7 +107,7 @@
 					<string>XPp-SW-q1H</string>
 				</array>
 				<key>message</key>
-				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<string>“New Inventory“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
 				<key>type</key>
 				<string>IBIssueTypeUnsupportedConfiguration</string>
 				<key>type-value</key>
@@ -61,7 +122,7 @@
 					<string>x4c-1J-TW6</string>
 				</array>
 				<key>message</key>
-				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<string>“Sales Report“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
 				<key>type</key>
 				<string>IBIssueTypeUnsupportedConfiguration</string>
 				<key>type-value</key>
